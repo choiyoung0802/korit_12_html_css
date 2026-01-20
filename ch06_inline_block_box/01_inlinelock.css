@@ -1,0 +1,12 @@
+ul > li {
+  margin-right: 2em;
+  /* padding-right: 2em; */
+  display: inline-block;
+  font-size: smaller;
+  background-color: blueviolet;
+  width: 65px;
+}
+
+ul > div > ul li {
+  background-color: brown;
+}
