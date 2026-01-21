@@ -1,0 +1,25 @@
+.outer {
+  width: 640px;
+  height: 640px;
+  border: 2px solid lightgray;
+  padding: 12px 0 0 12px;
+  background-color: white;
+}
+
+.outer > div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  margin: 0 8px 8px 0;
+}
+
+.red {
+  width: 70px;
+  height: 70px;
+  background-color: orangered;
+}
+
+.outer > .yellow {
+  background-color: orange;
+}
